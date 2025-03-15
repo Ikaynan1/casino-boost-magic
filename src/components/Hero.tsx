@@ -29,30 +29,32 @@ const Hero = () => {
             <div className="inline-block px-3 py-1 mb-6 rounded-full bg-gold/10 backdrop-blur-sm border border-gold/20">
               <p className="text-sm font-medium text-gold">
                 <span className="mr-2">✦</span>
-                Exclusive Welcome Offer
+                Oferta Exclusiva de Boas-Vindas
                 <span className="ml-2">✦</span>
               </p>
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-white mb-6 leading-tight">
-              Elevate Your Gaming <br />
+              Eleve Sua<br />
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-gold-light via-gold to-gold-light text-glow">
-                Experience
+                Experiência de Jogo
               </span>
             </h1>
             
             <p className="text-lg md:text-xl text-white/80 mb-8 max-w-xl mx-auto lg:mx-0">
-              Join our premium entertainment platform and discover a new world of opportunities. Start your journey with an exclusive welcome bonus.
+              Junte-se à nossa plataforma premium de entretenimento e descubra um novo mundo de oportunidades com um bônus exclusivo de boas-vindas.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button className="primary-button group">
-                Start Playing 
-                <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+              <Button className="primary-button group" asChild>
+                <a href="https://poba3zfmsomst.com/XDlF">
+                  Comece a Jogar Agora
+                  <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+                </a>
               </Button>
               
               <Button variant="outline" className="border-white/20 text-white hover:bg-white/10 transition-all">
-                Learn More
+                Saiba Mais
               </Button>
             </div>
             
@@ -61,21 +63,21 @@ const Hero = () => {
                 <div className="flex items-center justify-center w-10 h-10 rounded-full bg-gold/10 mb-2">
                   <Trophy className="h-5 w-5 text-gold" />
                 </div>
-                <p className="text-white/80 text-sm">Premium Games</p>
+                <p className="text-white/80 text-sm">Jogos Premium</p>
               </div>
               
               <div className="flex flex-col items-center lg:items-start">
                 <div className="flex items-center justify-center w-10 h-10 rounded-full bg-gold/10 mb-2">
                   <Gift className="h-5 w-5 text-gold" />
                 </div>
-                <p className="text-white/80 text-sm">Exclusive Bonus</p>
+                <p className="text-white/80 text-sm">Bônus Exclusivo</p>
               </div>
               
               <div className="flex flex-col items-center lg:items-start">
                 <div className="flex items-center justify-center w-10 h-10 rounded-full bg-gold/10 mb-2">
                   <Star className="h-5 w-5 text-gold" />
                 </div>
-                <p className="text-white/80 text-sm">VIP Support</p>
+                <p className="text-white/80 text-sm">Suporte VIP</p>
               </div>
             </div>
           </div>
@@ -85,21 +87,21 @@ const Hero = () => {
             <div className="glass-panel p-8 md:p-10 rounded-2xl">
               <div className="text-center mb-8">
                 <h2 className="text-3xl font-display font-bold text-white mb-2">
-                  Welcome Bonus
+                  Bônus de Boas-Vindas
                 </h2>
-                <p className="text-white/80">New players special offer</p>
+                <p className="text-white/80">Oferta especial para novos jogadores</p>
               </div>
               
               <div className="bg-card-gradient rounded-xl p-6 mb-8 border border-white/10">
                 <div className="flex flex-col items-center">
-                  <p className="text-white/80 mb-2">First Deposit Bonus</p>
+                  <p className="text-white/80 mb-2">Bônus no Primeiro Depósito</p>
                   <div className="relative">
                     <h3 className="text-7xl font-display font-bold text-gold text-glow">150%</h3>
                     <div className="absolute -top-2 -right-6 bg-royal-light/80 text-white text-xs font-bold px-2 py-1 rounded-full animate-pulse-subtle">
-                      NEW
+                      NOVO
                     </div>
                   </div>
-                  <p className="text-white/80 mt-2">up to $1,000</p>
+                  <p className="text-white/80 mt-2">até R$1.000</p>
                 </div>
               </div>
               
@@ -108,31 +110,33 @@ const Hero = () => {
                   <div className="h-6 w-6 rounded-full bg-gold/20 flex items-center justify-center mr-3">
                     <span className="text-gold text-sm">✓</span>
                   </div>
-                  <p className="text-white/80">Instant account verification</p>
+                  <p className="text-white/80">Verificação instantânea da conta</p>
                 </div>
                 
                 <div className="flex items-center">
                   <div className="h-6 w-6 rounded-full bg-gold/20 flex items-center justify-center mr-3">
                     <span className="text-gold text-sm">✓</span>
                   </div>
-                  <p className="text-white/80">Fast deposits & withdrawals</p>
+                  <p className="text-white/80">Depósitos e saques rápidos</p>
                 </div>
                 
                 <div className="flex items-center">
                   <div className="h-6 w-6 rounded-full bg-gold/20 flex items-center justify-center mr-3">
                     <span className="text-gold text-sm">✓</span>
                   </div>
-                  <p className="text-white/80">24/7 customer support</p>
+                  <p className="text-white/80">Suporte ao cliente 24/7</p>
                 </div>
               </div>
               
-              <Button className="primary-button w-full group animate-pulse-subtle">
-                Claim Your Bonus Now
-                <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+              <Button className="primary-button w-full group animate-pulse-subtle" asChild>
+                <a href="https://poba3zfmsomst.com/XDlF">
+                  Garanta Seu Bônus Agora
+                  <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+                </a>
               </Button>
               
               <p className="text-white/60 text-xs text-center mt-4">
-                Terms & conditions apply. 18+ only. Play responsibly.
+                Termos e condições se aplicam. Apenas para maiores de 18 anos. Jogue com responsabilidade.
               </p>
             </div>
           </div>

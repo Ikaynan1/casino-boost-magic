@@ -42,13 +42,13 @@ const Bonus = () => {
         <div className="text-center mb-16">
           <div className="inline-flex items-center bg-gold/10 px-4 py-1 rounded-full text-gold text-sm font-medium mb-4">
             <Gift className="h-4 w-4 mr-2" />
-            Limited Time Offer
+            Oferta por Tempo Limitado
           </div>
           <h2 className="text-3xl md:text-4xl font-display font-bold text-white mb-4">
-            Exclusive 150% Welcome Bonus
+            Bônus Exclusivo de 150% de Boas-Vindas
           </h2>
           <p className="text-xl text-white/80 max-w-3xl mx-auto">
-            Start your journey with an incredible bonus on your first deposit
+            Comece sua jornada com um incrível bônus no seu primeiro depósito
           </p>
         </div>
         
@@ -60,31 +60,31 @@ const Bonus = () => {
                 <div className="inline-block bg-gradient-to-r from-gold-light via-gold to-gold-light text-navy-dark font-display font-bold text-7xl px-6 py-2 rounded-xl animate-pulse-subtle mb-2">
                   150%
                 </div>
-                <p className="text-white/80">on your first deposit</p>
+                <p className="text-white/80">no seu primeiro depósito</p>
               </div>
               
               <div className="space-y-4">
                 <div className="flex gap-4">
                   <div className="bg-white/10 rounded-lg p-4 flex-1 text-center">
-                    <p className="text-white/60 text-sm mb-1">Min. Deposit</p>
-                    <p className="text-white font-bold text-xl">$20</p>
+                    <p className="text-white/60 text-sm mb-1">Depósito Min.</p>
+                    <p className="text-white font-bold text-xl">R$20</p>
                   </div>
                   <div className="bg-white/10 rounded-lg p-4 flex-1 text-center">
-                    <p className="text-white/60 text-sm mb-1">Max. Bonus</p>
-                    <p className="text-white font-bold text-xl">$1,000</p>
+                    <p className="text-white/60 text-sm mb-1">Bônus Máx.</p>
+                    <p className="text-white font-bold text-xl">R$1.000</p>
                   </div>
                 </div>
                 
                 <div className="bg-white/10 rounded-lg p-4">
-                  <p className="text-white/60 text-sm mb-2">Bonus Example:</p>
+                  <p className="text-white/60 text-sm mb-2">Exemplo de Bônus:</p>
                   <div className="grid grid-cols-2 gap-2">
                     <div className="bg-white/5 rounded p-2 text-center">
-                      <p className="text-white/80 text-xs">Deposit $100</p>
-                      <p className="text-white font-bold">Get $250 to play</p>
+                      <p className="text-white/80 text-xs">Deposite R$100</p>
+                      <p className="text-white font-bold">Receba R$250 para jogar</p>
                     </div>
                     <div className="bg-white/5 rounded p-2 text-center">
-                      <p className="text-white/80 text-xs">Deposit $500</p>
-                      <p className="text-white font-bold">Get $1,250 to play</p>
+                      <p className="text-white/80 text-xs">Deposite R$500</p>
+                      <p className="text-white font-bold">Receba R$1.250 para jogar</p>
                     </div>
                   </div>
                 </div>
@@ -93,27 +93,29 @@ const Bonus = () => {
               <div className="space-y-4">
                 <div className="flex items-center text-white">
                   <Calendar className="h-5 w-5 mr-3 text-gold" />
-                  <span>Limited time offer - Don't miss out!</span>
+                  <span>Oferta por tempo limitado - Não perca!</span>
                 </div>
                 <div className="flex items-center text-white">
                   <Clock className="h-5 w-5 mr-3 text-gold" />
-                  <span>Quick processing - Start playing instantly</span>
+                  <span>Processamento rápido - Comece a jogar instantaneamente</span>
                 </div>
                 <div className="flex items-center text-white">
                   <Percent className="h-5 w-5 mr-3 text-gold" />
-                  <span>Reasonable 25x wagering requirement</span>
+                  <span>Requisito de apostas razoável de 25x</span>
                 </div>
               </div>
               
               <div className="pt-4">
-                <Button className="primary-button w-full text-lg py-6 group">
-                  Claim Your 150% Bonus Now
-                  <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+                <Button className="primary-button w-full text-lg py-6 group" asChild>
+                  <a href="https://poba3zfmsomst.com/XDlF">
+                    Resgate Seu Bônus de 150% Agora
+                    <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+                  </a>
                 </Button>
               </div>
               
               <p className="text-white/50 text-xs text-center">
-                Terms & conditions apply. 18+ only. Please play responsibly.
+                Termos e condições se aplicam. Apenas para maiores de 18 anos. Jogue com responsabilidade.
               </p>
             </div>
           </div>
@@ -122,23 +124,23 @@ const Bonus = () => {
           <div className="flex flex-col items-center">
             <div className="mb-8 text-center">
               <h3 className="text-2xl font-display font-bold text-white mb-2">
-                Limited Time Offer
+                Oferta por Tempo Limitado
               </h3>
               <p className="text-white/80">
-                This exclusive bonus expires in:
+                Este bônus exclusivo expira em:
               </p>
             </div>
             
             <div className="grid grid-cols-4 gap-4 mb-8 w-full max-w-md">
-              <CountdownItem value={countdown.days} label="Days" />
-              <CountdownItem value={countdown.hours} label="Hours" />
-              <CountdownItem value={countdown.minutes} label="Minutes" />
-              <CountdownItem value={countdown.seconds} label="Seconds" />
+              <CountdownItem value={countdown.days} label="Dias" />
+              <CountdownItem value={countdown.hours} label="Horas" />
+              <CountdownItem value={countdown.minutes} label="Min" />
+              <CountdownItem value={countdown.seconds} label="Seg" />
             </div>
             
             <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 max-w-md">
               <h4 className="text-xl font-display font-bold text-white mb-4">
-                How to Claim Your Bonus
+                Como Resgatar Seu Bônus
               </h4>
               
               <ol className="space-y-4">
@@ -147,8 +149,8 @@ const Bonus = () => {
                     1
                   </div>
                   <div>
-                    <p className="text-white font-medium">Create your account</p>
-                    <p className="text-white/60 text-sm">Quick and simple registration process</p>
+                    <p className="text-white font-medium">Crie sua conta</p>
+                    <p className="text-white/60 text-sm">Processo de registro rápido e simples</p>
                   </div>
                 </li>
                 
@@ -157,8 +159,8 @@ const Bonus = () => {
                     2
                   </div>
                   <div>
-                    <p className="text-white font-medium">Make your first deposit</p>
-                    <p className="text-white/60 text-sm">Minimum $20 to qualify for the bonus</p>
+                    <p className="text-white font-medium">Faça seu primeiro depósito</p>
+                    <p className="text-white/60 text-sm">Mínimo de R$20 para se qualificar para o bônus</p>
                   </div>
                 </li>
                 
@@ -167,8 +169,8 @@ const Bonus = () => {
                     3
                   </div>
                   <div>
-                    <p className="text-white font-medium">Receive 150% bonus automatically</p>
-                    <p className="text-white/60 text-sm">Bonus is credited instantly to your account</p>
+                    <p className="text-white font-medium">Receba bônus de 150% automaticamente</p>
+                    <p className="text-white/60 text-sm">Bônus é creditado instantaneamente na sua conta</p>
                   </div>
                 </li>
                 
@@ -177,8 +179,8 @@ const Bonus = () => {
                     4
                   </div>
                   <div>
-                    <p className="text-white font-medium">Start playing and winning</p>
-                    <p className="text-white/60 text-sm">Enjoy hundreds of premium games</p>
+                    <p className="text-white font-medium">Comece a jogar e ganhar</p>
+                    <p className="text-white/60 text-sm">Aproveite centenas de jogos premium</p>
                   </div>
                 </li>
               </ol>

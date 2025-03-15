@@ -17,10 +17,10 @@ const Testimonials = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-4">
-            What Our Players Say
+            O Que Nossos Jogadores Dizem
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Join thousands of satisfied players who have experienced our premium service
+            Junte-se a milhares de jogadores satisfeitos que já experimentaram nosso serviço premium
           </p>
         </div>
         
@@ -73,10 +73,10 @@ const Testimonials = () => {
             <div className="grid grid-cols-1 md:grid-cols-2">
               <div className="p-8 md:p-10">
                 <h3 className="text-2xl md:text-3xl font-display font-bold text-white mb-4">
-                  Join the Premium Community
+                  Junte-se à Comunidade Premium
                 </h3>
                 <p className="text-white/80 mb-6">
-                  Become part of our growing community of players who enjoy premium games, exclusive bonuses, and exceptional service.
+                  Torne-se parte da nossa crescente comunidade de jogadores que desfrutam de jogos premium, bônus exclusivos e serviço excepcional.
                 </p>
                 
                 <div className="space-y-4 mb-8">
@@ -84,27 +84,27 @@ const Testimonials = () => {
                     <div className="h-6 w-6 rounded-full bg-gold/20 flex items-center justify-center mr-3">
                       <span className="text-gold text-sm">✓</span>
                     </div>
-                    <p className="text-white/80">Over 10,000 satisfied players</p>
+                    <p className="text-white/80">Mais de 10.000 jogadores satisfeitos</p>
                   </div>
                   
                   <div className="flex items-center">
                     <div className="h-6 w-6 rounded-full bg-gold/20 flex items-center justify-center mr-3">
                       <span className="text-gold text-sm">✓</span>
                     </div>
-                    <p className="text-white/80">Excellent customer satisfaction</p>
+                    <p className="text-white/80">Excelente satisfação do cliente</p>
                   </div>
                   
                   <div className="flex items-center">
                     <div className="h-6 w-6 rounded-full bg-gold/20 flex items-center justify-center mr-3">
                       <span className="text-gold text-sm">✓</span>
                     </div>
-                    <p className="text-white/80">Responsive customer support</p>
+                    <p className="text-white/80">Suporte ao cliente responsivo</p>
                   </div>
                 </div>
                 
-                <button className="primary-button">
-                  Join Now
-                </button>
+                <a href="https://poba3zfmsomst.com/XDlF" className="primary-button inline-block">
+                  Comece Agora
+                </a>
               </div>
               
               <div className="bg-navy-light flex items-center justify-center p-10">
@@ -115,8 +115,8 @@ const Testimonials = () => {
                       <Star key={i} className="h-6 w-6 fill-current" />
                     ))}
                   </div>
-                  <p className="text-white/80">Average player rating</p>
-                  <p className="text-white/60 text-sm">Based on 2,500+ reviews</p>
+                  <p className="text-white/80">Avaliação média dos jogadores</p>
+                  <p className="text-white/60 text-sm">Baseado em mais de 2.500 avaliações</p>
                 </div>
               </div>
             </div>
@@ -130,18 +130,18 @@ const Testimonials = () => {
 const testimonials = [
   {
     name: "Rebecca M.",
-    location: "London, UK",
-    comment: "I'm impressed with the selection of games and the generous welcome bonus. The 150% bonus gave me so much more playtime!"
+    location: "São Paulo, Brasil",
+    comment: "Estou impressionada com a seleção de jogos e o bônus generoso de boas-vindas. O bônus de 150% me deu muito mais tempo de jogo!"
   },
   {
-    name: "James T.",
-    location: "Toronto, Canada",
-    comment: "The interface is sleek and premium. Customer support is quick to respond and I received my withdrawals without any hassle."
+    name: "João T.",
+    location: "Rio de Janeiro, Brasil",
+    comment: "A interface é elegante e premium. O suporte ao cliente responde rapidamente e recebi meus saques sem qualquer problema."
   },
   {
-    name: "Michael K.",
-    location: "Sydney, Australia",
-    comment: "Best entertainment platform I've used. The welcome bonus was credited instantly and the game selection is outstanding."
+    name: "Miguel K.",
+    location: "Belo Horizonte, Brasil",
+    comment: "Melhor plataforma de entretenimento que já usei. O bônus de boas-vindas foi creditado instantaneamente e a seleção de jogos é excepcional."
   }
 ];
 
