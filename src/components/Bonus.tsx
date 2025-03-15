@@ -67,7 +67,7 @@ const Bonus = () => {
                 <div className="flex gap-4">
                   <div className="bg-white/10 rounded-lg p-4 flex-1 text-center">
                     <p className="text-white/60 text-sm mb-1">Depósito Min.</p>
-                    <p className="text-white font-bold text-xl">R$20</p>
+                    <p className="text-white font-bold text-xl">R$30</p>
                   </div>
                   <div className="bg-white/10 rounded-lg p-4 flex-1 text-center">
                     <p className="text-white/60 text-sm mb-1">Bônus Máx.</p>
@@ -160,7 +160,7 @@ const Bonus = () => {
                   </div>
                   <div>
                     <p className="text-white font-medium">Faça seu primeiro depósito</p>
-                    <p className="text-white/60 text-sm">Mínimo de R$20 para se qualificar para o bônus</p>
+                    <p className="text-white/60 text-sm">Mínimo de R$30 para se qualificar para o bônus</p>
                   </div>
                 </li>
                 
